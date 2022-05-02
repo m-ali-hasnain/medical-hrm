@@ -1,0 +1,29 @@
+
+.main {
+  background-color: #282c34;;
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+.playlist {
+  text-align: left;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.playlist-item {
+  color: #444;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  padding: 1em;
+}
+.playlist-item.selected {
+  font-weight: bold;
+  color: white;
+}
+
+.playlist-item:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.controls {
+  text-align: left;
+  padding: 1em;
+}
